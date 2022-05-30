@@ -1,15 +1,14 @@
 import "./character.css";
 import useCharacter from "../../hooks/useCharacter";
-import { Link } from "react-router-dom";
 
 import Button from "../../components/Button/Button";
-import Error from "../../components/Error";
+import Error from "../Error";
 
 export default function Character() {
   const { alias, urlImagen, description, name, exists } = useCharacter();
 
   return (
-    <section className="character">
+    <section className={`character ${!exists && "error"}`}>
       {exists ? (
         <>
           <h3>{name}</h3>

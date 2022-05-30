@@ -3,7 +3,7 @@
   border: 1px solid #ccc;
   border-radius: 10px;
   background: #282327;
-  box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   color: #78c05d;
   font-size: 1em;
   cursor: pointer;
@@ -12,5 +12,5 @@
   background: #484347;
 }
 .button:active {
-  transform: scale(.9);
+  transform: scale(0.9);
 }

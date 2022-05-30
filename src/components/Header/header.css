@@ -1,6 +1,7 @@
 .App-header {
   pointer-events: none;
   display: flex;
+  align-items: center;
   margin: 20px 0;
 }
 

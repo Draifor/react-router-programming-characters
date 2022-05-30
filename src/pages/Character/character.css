@@ -22,3 +22,7 @@
 img {
   width: 300px;
 }
+.error {
+  display: flex;
+  flex-direction: column;
+}
