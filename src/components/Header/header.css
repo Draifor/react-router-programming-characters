@@ -1,0 +1,19 @@
+.App-header {
+  pointer-events: none;
+  display: flex;
+  margin: 20px 0;
+}
+
+.App-logo {
+  width: 120px;
+  animation: App-logo-spin infinite 20s linear;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
