@@ -1,8 +1,10 @@
-import { useNavigate } from "react-router-dom";
+import './button.css';
+import { Link } from 'react-router-dom';
 
 export default function Button({ path, children }) {
-    const navigate = useNavigate();
   return (
-    <button onClick={() => navigate(path)} >{children}</button>
+    <Link to={path} >
+      <button className='button'>{children}</button>
+    </Link>
   )
 }

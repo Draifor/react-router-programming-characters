@@ -9,16 +9,8 @@
   align-items: center;
   justify-content: flex-start;
   color: #488f41;
-  font-size: 1.3em;
+  font-size: 1.4em;
 }
-.character {
-  display: flex;
-  gap: 10px;
-  max-width: 900px;
-  color: aliceblue;
-  text-shadow: 0 0 5px #000;
-}
-
-img {
-  width: 250px;
+h2 {
+  margin-bottom: 30px;
 }

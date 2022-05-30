@@ -1,0 +1,16 @@
+.button {
+  padding: 8px 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: #282327;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+  color: #78c05d;
+  font-size: 1em;
+  cursor: pointer;
+}
+.button:hover {
+  background: #484347;
+}
+.button:active {
+  transform: scale(.9);
+}
